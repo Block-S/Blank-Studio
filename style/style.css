@@ -1,8 +1,8 @@
 /* ------------------------------------------------
- Author: ArtStyles Brands (ArtTemplate / ArtIcons)
- URL: http://themeforest.net/user/artstyles
+ Author: Block Studio
+ URL: http://blockstudio/home.html
  
- Template Name: FORZO
+ Template Name: Blank Studio
  version: 1.0.6
 ------------------------------------------------ */
 /* ------------------------------------------------
@@ -704,7 +704,7 @@ body.menu_open .top.affix {
   width: 197px;
 }
 .top .navbar__logo svg {
-  width: 36%;
+  width: 35%;
 }
 .top .navbar__logo .logotype path {
   fill: #fff;
@@ -759,14 +759,14 @@ body.menu_open .top.affix {
   transform: translate(-50%);
 }
 .hamburger {
-  background-color: #f8d9db;
+  /*background-color: #f8d9db;
   border-radius: 50%;
-  color: #f8d9db;
+  color: #f8d9db; */
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  height: 50px;
-  width: 50px;
-  padding-top: 14px;
+  height: auto;
+  width: auto;
+  //padding-top: 14px;
   position: relative;
   text-transform: uppercase;
 }
