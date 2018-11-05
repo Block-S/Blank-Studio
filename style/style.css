@@ -702,6 +702,7 @@ body.menu_open .top.affix {
   overflow: hidden;
   transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
   width: 197px;
+  position: absolute;
 }
 .top .navbar__logo svg {
   width: 35%;
@@ -770,15 +771,7 @@ body.menu_open .top.affix {
   position: relative;
   text-transform: uppercase;
 }
-.hamburger::before {
-  content: '';
-  background-color: #f8d9db;
-  border-radius: 50%;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  top: 0;
-  z-index: -1;
+.hamburger svg:hover {
   -webkit-transform: scale(1);
   transform: scale(1);
   transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
@@ -824,7 +817,6 @@ body.menu_open .top.affix {
   }
 }
 .menu_open .hamburger {
-  background-color: #fff;
   position: relative;
   z-index: 1;
   transition: background-color 0.3s 0s cubic-bezier(0.7, 0, 0.3, 1);
@@ -3972,3 +3964,40 @@ img.zoom-img {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Additional */
+.main_logo_hide {
+  display: none;
+}
+
+.hidden_logo {
+  display:none;
+}
+.ShowLogo {
+  display: block;
+}
+.menu {
+  position: absolute;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size:15px;
+  z-index: 2;
+  top: 13%;
+  left:2%;
+  transition: all 0.3s; 
+  transform: rotate(270deg);
+}
+.menu:hover {
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,9 @@
 /*
- * Author: ArtStyles Brands (ArtTemplate / ArtIcons)
- * URL: http://themeforest.net/user/artstyles
- * Template Name: FORZO
- * Version: 1.1
+ *Author: Block Studio
+ *URL: http://blockstudio/home.html
+ *
+ *Template Name: Blank Studio
+ *version: 1.0.6
 */
 
 "use strict";
